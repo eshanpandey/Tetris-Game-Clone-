@@ -28,7 +28,7 @@ public class board extends JPanel {
     
     
     public board(tetris parent) {
-
+        this.setBackground(Color.black);
         initBoard(parent);
     }
     private void initBoard( tetris parent) {
